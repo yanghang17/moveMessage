@@ -12,3 +12,15 @@
 	<script type="text/javascript" src="script/movemessage.js"></script>
 </body>
 </html>
+/*
+收获:
+1.做动画效果时，需要去用原始位置的函数去调用目标函数，否则有可能会被直接覆盖.
+2.使用抽象的概念，把所有函数的常数变成变量。
+3.引号的使用知识巩固
+var s=1;
+	var t=2;
+	var y="yu";
+	console.log("+s+","+y+","+t+");//+s+ +y+ +t+
+	console.log(s,y,t);//1 "yu" 2
+	console.log("s","y","t");//s y t
+	console.log("("+s+","+y+","+t+")");//(1,yu,2)
